@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 7vh;
+    box-shadow: 6px 2px 4px rgb(121, 121, 121);
+    min-width: 300px;
+
+}
+
+.logo {
+    flex-grow: 1;
+    color: purple;
+    font-size: 2em;
+    font-weight: 500px;
+}
+
+.header-nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3vw;
+    flex-grow: 1;
+
+}
+
+
+.header-nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    border-bottom: 2px solid transparent;
+}
+
+.header-nav-link:hover {
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+    transition: 0.5s;
+}
+
+.header-nav-link:focus {
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
